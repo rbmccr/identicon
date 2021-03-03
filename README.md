@@ -31,3 +31,10 @@ Each 50x50px square in the image is assigned an "index", following the mirror pa
 
 ```
 15 of the 16 numbers are applied to the indices of the grid, based on the index of each number the list (e.g. A = 114, B = 179, etc.). Squares are colored if the number applied is even. The color chosen is an RGB value derived from the first three numbers in the list.
+
+Example:
+```elixir
+iex> Identicon.main("brendan")
+```
+
+![brendan.png](./brendan.png)
