@@ -38,3 +38,10 @@ iex> Identicon.main("brendan")
 ```
 
 ![brendan.png](./brendan.png)
+
+## Run Locally
+
+```bash
+git clone git@github.com:rbmccr/identicon.git
+iex -S mix
+```
